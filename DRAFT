@@ -1,0 +1,680 @@
+<!-- 
+ ====> OUR PROJECTS <====-->
+<!--  
+<section id="projects" class="projects py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2>Our Projects</h2>
+        </div>
+        <div class="row gy-4">
+            <!-- Project 1
+            <div class="col-md-4">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Project 1" class="img-fluid rounded">
+                    </div>
+                    <div class="project-info">
+                        <h4>Project Title 1</h4>
+                        <p>A brief description of the project. This can include objectives, outcomes, and any notable achievements.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Project 2
+            <div class="col-md-4">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Project 2" class="img-fluid rounded">
+                    </div>
+                    <div class="project-info">
+                        <h4>Project Title 2</h4>
+                        <p>A brief description of the project. This can include objectives, outcomes, and any notable achievements.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Project 3 -->
+            <!-- <div class="col-md-4">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Project 3" class="img-fluid rounded">
+                    </div>
+                    <div class="project-info">
+                        <h4>Project Title 3</h4>
+                        <p>A brief description of the project. This can include objectives, outcomes, and any notable achievements.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAG Group - Sports Construction</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP STYLESHEET -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+ 
+<!-- ====> NAVBAR <====-->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: linear-gradient(90deg, hsla(240, 1%, 36%, 0.582), rgba(34,34,34,0.8)); box-shadow: 0 4px 10px;">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#" style="color: #f8f9fa;">
+            <img src="images/logo.png" alt="Logo" style="width: 50px; margin-right: 14px;"> TAG Group
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Existing nav items -->
+                <li class="nav-item">
+                    <a class="nav-link" id="homeLink" aria-current="page" href="#home">
+                        <span class="home-text">Home</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutLink" href="#about">
+                        <span class="about-text">About us</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="servicesLink" href="#services" role="button" aria-expanded="false">
+                        <span class="services-text">Services</span>
+                        <span class="underline"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle courts-link" href="#">Courts</a>
+                            <ul class="dropdown-menu courts-menu">
+                                <li><a class="dropdown-item" href="#football">Football</a></li>
+                                <li><a class="dropdown-item" href="#basketball">Basketball</a></li>
+                                <li><a class="dropdown-item" href="#hockey">Hockey</a></li>
+                                <li><a class="dropdown-item" href="#padbol">Padbol</a></li>
+                                <li><a class="dropdown-item" href="#volleyball">Volleyball</a></li>
+                                <li><a class="dropdown-item" href="#handball">Handball</a></li>
+                                <li><a class="dropdown-item" href="#tracks">Tracks</a></li>
+                                <li><a class="dropdown-item" href="#tennis">Tennis</a></li>
+                                <li><a class="dropdown-item" href="#squash">Squash</a></li>
+                                <li><a class="dropdown-item" href="#multiPurpose">MultiPurpose</a></li>
+                                <li><a class="dropdown-item" href="#padel">Padel</a></li>
+                                <li><a class="dropdown-item" href="#climbingWalls">Climbing walls</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#runningTracks">Running tracks</a></li>
+                        <li><a class="dropdown-item" href="#playgroundFlooring">Playground Flooring</a></li>
+                        <li><a class="dropdown-item" href="#swimmingPools">Swimming pools</a></li>
+                        <li><a class="dropdown-item" href="#hardSoftScape">Hard Scape & Soft Scape</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" id="partnersLink" href="#partners">
+                        <span class="partners-text">Our Partners</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="getQuoteLink" href="#get-quote">
+                        <span class="get-quote-text">Get a Quote</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="referenceListLink" href="files/TAG PROJECTS LIST.pdf" target="_blank">
+                        <span class="reference-list-text">Reference List</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contactLink" href="#contact">
+                        <span class="contact-text">Contact Us</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+ <!-- ====> HEADER <====-->
+<header id="home" class="home text-white d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="container text-center">
+         <!-- Language Toggle Button
+         <li class="nav-item">
+            <button id="languageToggle" class="btn btn-light">العربية</button>
+        </li> -->
+        <!-- Main Headline -->
+        <h5 class="fw-bold mb-2">TAG Group</h5>
+        <h2 class="display-4 fw-semibold typing-animation mb-4">Innovating the Future of Sports Construction</h2>
+        
+      
+
+
+        <div class="head-icon mt-4">
+            <a href="https://www.facebook.com/Tagsportsg?mibextid=ZbWKwL" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/tag-sports-group/posts/?feedView=all" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@TAGSportsGroup" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/tagsportsgroup/" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
+    </div>
+
+      <!-- Upload Portfolio Button -->
+    <a href="files/Tag Profile_.pdf" class="btn btn-primary btn-lg rounded-pill" download>download Portfolio</a>
+    </div>
+</header>
+
+
+
+
+<!-- About Section -->
+<section id="about" class="about py-5 d-flex">
+    <div class="container py-4">
+        <div class="about-tx row">
+            <div class="col-md-4 align-items-center">
+                <!-- <img src="images/tag logo dark background-01-01.jpg" class="w-100 h-100 p-1 border border-1 rounded-1" alt=""> -->
+            </div>
+            <div class="col-md-6 align-items-center">
+                <h2 class="fw-bold">About Us.</h2>
+                <p class="text-muted fs-5 mb-4">TAG Group was founded with a vision to deliver world-class sports construction services, backed by deep expertise and unique standards. We are committed to continuous development, ensuring that our policies and strategic plans not only enhance our offerings but also contribute positively to society. Our commitment to credibility, professionalism, and integrity has earned us the trust of our clients across the globe.</p>
+                
+                <div class="button-about py-4">
+                    <a href="#contact" class="btn2 text-uppercase">
+                        <button class="py-2 px-4 rounded-1">Contact Us</button>
+                    </a>
+                    <!-- Read More Button -->
+                    <a href="about.html" class="btn2 text-uppercase">
+                        <button class="py-2 px-4 rounded-1">Read More</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ====> SERVICES <====-->
+
+<section id="services" class="services bg-light py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2>Our Services</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/service1.jpg" class="img-fluid rounded mb-3" alt="Service 1" style="height: 250px; object-fit: cover;">
+                    <h5>Sports Court Acrylic Flooring</h5>
+                    <p>High-quality and durable acrylic flooring designed for various sports courts, providing excellent performance and longevity.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/service2.jpg" class="img-fluid rounded mb-3" alt="Service 2" style="height: 250px; object-fit: cover;">
+                    <h5>Running Track</h5>
+                    <p>Precision-engineered running tracks designed to offer optimal performance and safety for runners of all skill levels.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/service3.jpg" class="img-fluid rounded mb-3" alt="Service 3" style="height: 250px; object-fit: cover;">
+                    <h5>Hockey Fields</h5>
+                    <p>High-performance hockey fields designed to meet the demands of professional and amateur players alike, ensuring safety and playability.</p>
+                </div>
+            </div>
+
+           <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <a href="http://localhost:8080/tag%20website/tennis/" class="d-block">
+                        <img src="images/WhatsApp Image 2024-08-30 at 15.28.22.jpeg" class="img-fluid rounded mb-3" alt="Service 4" style="height: 250px; object-fit: cover;">
+                    </a>
+                    <h5>Tennis Courts</h5>
+                    <p>Engineered for precision and endurance, our tennis courts are suitable for players of all levels, providing a top-quality playing surface.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====> OUR PARTNERS <====-->
+<section id="partners" class="partners py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2>Our Partners</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner1.png" alt="Partner 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner2.png" alt="Partner 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner3.png" alt="Partner 3" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner4.png" alt="Partner 4" class="img-fluid">
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner1.png" alt="Partner 1" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner2.png" alt="Partner 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner3.png" alt="Partner 3" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="partner-frame">
+                    <img src="images/partner4.png" alt="Partner 4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- ====> GET A QUOTE <====-->
+<section id="get-quote" class="ftco-section bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 heading-section ftco-animate py-md-4 text-center">
+                <!-- Title and Description -->
+                <h2 class="mb-4 font-weight-bold">Request a Quote</h2>
+                <p class="text-muted mb-4">Fill out the form below to get a personalized quote for your project. Our team will get back to you shortly.</p>
+            </div>
+            <div class="col-lg-12 d-flex">
+                <!-- Image Column -->
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="image-column w-100">
+                        <img src="images/Capture.JPG" alt="Decorative Image" class="img-fluid">
+                    </div>
+                </div>
+                <!-- Form Column -->
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="form-container p-4 bg-white shadow rounded w-100">
+                        <form id="quote-form">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label for="floor-type">Type of Flooring</label>
+                                <select id="floor-type" class="form-control" required>
+                                    <option value="">Select Flooring Type</option>
+                                    <option value="courts">Courts</option>
+                                    <option value="pools">Pools</option>
+                                    <option value="landscape">Landscape</option>
+                                    <option value="maintenance">Maintenance</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="sub-category">Sub Category</label>
+                                <select id="sub-category" class="form-control" required>
+                                    <option value="">Select Sub Category</option>
+                                    <!-- Sub categories will be populated by JavaScript -->
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="area">Area (in square meters)</label>
+                                <input type="number" class="form-control" id="area" placeholder="Enter area in m²" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Provide details about your project" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Request a Quote</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Confirmation Message -->
+<div id="confirmation-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Thank You</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>We will contact you soon.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript for Form Submission and Modal -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+ 
+</script>
+
+
+
+<!-- ====> CONTACT <====-->
+<section id="contact" class="contact py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact-info">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-location-dot fs-4 me-2"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>57 Shehab St., Mohandseen, Cairo, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-phone fs-4 me-2"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-envelope fs-4 me-2"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@taggroup.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.3375363636874!2d31.201030221984137!3d30.055857853379273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841384f6bffff%3A0x669d17627e4a9fe9!2zNTcg2LTYp9ix2Lkg2LTZh9in2KjYjCDYrNiy2YrYsdipINmF2YrYqiDYudmC2KjYqdiMINit2Yog2KfZhNi52KzZiNiy2KnYjCDZhdit2KfZgdi42Kkg2KfZhNis2YrYstipIDM3NTI1MDI!5e0!3m2!1sar!2seg!4v1725038921333!5m2!1sar!2seg" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ====> BACKGROUND IMAGE SECTION <====-->
+<section class="background-image-section py-5">
+    <!-- Content or message can be added here -->
+</section>
+
+
+    <!-- ====> FOOTER <====-->
+<footer class="bg-black text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">&copy; 2024 TAG Group. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <a href="#" class="text-white me-3">Privacy Policy</a>
+                <a href="#" class="text-white">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- ====> JS FILES <====-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
+    <script src="./home.js"></script>
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9dy7U8z0e2c6q8N6F8U8Q3sFJEO7pkF1GGMKj3H5w+jocwI5YI5" crossorigin="anonymous"></script> -->
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- -----------------------------------------------------
+ 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAG Group - Sports Construction</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP STYLESHEET -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+<!-- ====> NAVBAR <====-->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: linear-gradient(90deg, hsla(240, 1%, 36%, 0.582), rgba(34,34,34,0.8)); box-shadow: 0 4px 10px;">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="http://localhost:8080/tag%20website/home%20page/" style="color: #f8f9fa;">
+            <img src="images/logo.png" alt="Logo" style="width: 50px; margin-right: 14px;" data-translate="tagGroupLogo"> TAG Group
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Existing nav items -->
+                <li class="nav-item">
+                    <a class="nav-link" id="homeLink" aria-current="page" href="http://localhost:8080/tag%20website/home%20page/#home" data-translate="home">
+                        <span class="home-text">Home</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="aboutLink" href="http://localhost:8080/tag%20website/home%20page/#about" data-translate="aboutUs">
+                        <span class="about-text">About us</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="servicesLink" href="http://localhost:8080/tag%20website/home%20page/#services" role="button" aria-expanded="false" data-translate="services">
+                        <span class="services-text">
+
+
+                            Services</span>
+                        <span class="underline"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="http://localhost:8080/tag%20website/home%20page/#tennis" data-translate="tennisCourts">Tennis Courts</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8080/tag%20website/home%20page/#football" data-translate="footballFields">Football Fields</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contactLink" href="http://localhost:8080/tag%20website/home%20page/#contact" data-translate="contactUs">
+                        <span class="contact-text">Contact us</span>
+                        <span class="underline"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ====> SERVICES SECTION <==== -->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="title" data-translate="tennisCourtsText">Tennis Courts</div>
+                <div class="description" data-translate="tennisAcrylicText">Tennis Acrylic</div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/tennis-court.jpg" alt="Tennis Court">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====> FOOTER <==== -->
+<footer>
+    <div class="container">
+        <p data-translate="footerText">© 2024 TAG Group. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- ====> TRANSLATION SCRIPT <==== -->
+<script>
+    const translations = {
+        en: {
+            home: "Home",
+            aboutUs: "About us",
+            services: "Services",
+            tennisCourts: "Tennis Courts",
+            footballFields: "Football Fields",
+            contactUs: "Contact us",
+            tennisCourtsText: "Tennis Courts",
+            tennisAcrylicText: "Tennis Acrylic",
+            footerText: "© 2024 TAG Group. All rights reserved.",
+            tagGroupLogo: "TAG Group"
+        },
+        ar: {
+            home: "الصفحة الرئيسية",
+            aboutUs: "من نحن",
+            services: "خدمات",
+            tennisCourts: "ملاعب التنس",
+            footballFields: "ملاعب كرة القدم",
+            contactUs: "اتصل بنا",
+            tennisCourtsText: "ملاعب التنس",
+            tennisAcrylicText: "التنس أكريليك",
+            footerText: "© 2024 مجموعة تاج. جميع الحقوق محفوظة.",
+            tagGroupLogo: "مجموعة تاج"
+        }
+    };
+
+    // Function to set language
+    function setLanguage(language) {
+        localStorage.setItem('selectedLanguage', language);
+        const elements = document.querySelectorAll('[data-translate]');
+        
+        elements.forEach(el => {
+            const key = el.getAttribute('data-translate');
+            el.textContent = translations[language][key] || el.textContent;
+        });
+    }
+
+    // Initialize language
+    function initializeLanguage() {
+        const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+        setLanguage(savedLanguage);
+    }
+
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', () => {
+        initializeLanguage();
+    });
+</script>
+
+<!-- BOOTSTRAP JS -->
+<script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,474 @@
+/* ==================== CSS Reset ==================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #1C1C1C; /* اللون الأساسي الداكن */
+    /* --secondary-color: #00CCFF; لون ثانوي */
+    --background-overlay: rgba(0, 0, 0, 0.5); /* تراكب خلفية شفاف */
+    --text-light: #000000; /* لون النص الفاتح */
+    --text-dark: #000; /* لون النص الداكن */
+}
+
+/* ==================== General Styles ==================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #333; /* الخلفية الأساسية للموقع */
+    color: var(--text-light); /* اللون الافتراضي للنص */
+    line-height: 1.6;
+    overflow-x: hidden; /* لإزالة التمرير الأفقي */
+    font-size: 19px; /* حجم الخط الأساسي */
+
+}
+
+* {
+    font-size: 92%; /* تصغير جميع النصوص بنسبة 85% من الحجم الأصلي */
+}
+
+
+
+/* ==================== Background Moving Effect ==================== */
+.moving-background {
+    animation: movingBackground 10s linear infinite;
+}
+
+@keyframes movingBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+}
+
+/* ==================== Header Section ==================== */
+
+/* تحسين تأثيرات الانتقال للخلفية */
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.119)), url(../images/main_home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    opacity: 0;
+    animation: fadeInBackground 3s ease-in-out forwards;
+}
+
+/* تأثير تلاشي أقوى للخلفية */
+@keyframes fadeInBackground {
+    0% { opacity: 0; transform: scale(1.05); } /* البداية بحجم أكبر قليلاً */
+    100% { opacity: 1; transform: scale(1); } /* تلاشي تدريجي مع الحجم الطبيعي */
+}
+
+/* تحسين الكتابة المتحركة */
+.typing-animation {
+    display: inline-block;
+    /* font-size: 2rem; */
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    animation: typing 4s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+    margin-bottom: 20px;
+    font-size: 25px; /* حجم الخط الأساسي */
+
+}
+
+@keyframes typing {
+    0% { width: 0; }
+    50% { width: 100%; }
+    100% { width: 0; }
+}
+
+/* تحسينات ثلاثية الأبعاد للأزرار */
+.btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: background-color 0.4s ease, transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease; /* تحويل بتسارع مخصص */
+    box-shadow: 0 6px 12px rgba(201, 214, 10, 0.15);
+    perspective: 1000px; /* لتحسين التأثير ثلاثي الأبعاد */
+}
+
+
+
+
+
+.btn:hover {
+    background-color: #b4a916;
+    transform: rotateY(15deg) translateY(-5px) scale(1.1); /* دوران ثلاثي الأبعاد مع تكبير */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    background-color: hsl(0, 100%, 50%);
+    transform: rotateY(0deg) translateY(2px) scale(0.98); /* تقليل التأثير عند الضغط */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* تحسينات ثلاثية الأبعاد للأيقونات */
+.head-icon a {
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.481);
+    box-sizing: border-box;
+    padding: 5px;
+    transition: background-color 0.4s ease, transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.4s ease;
+    perspective: 800px; /* لإعطاء تأثير ثلاثي الأبعاد */
+}
+
+.head-icon a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: rotateX(15deg) scale(1.2); /* دوران حول المحور X مع تكبير */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+*/
+
+/* ==================== Navbar Styles ==================== */
+#navbar {
+    height: 50px  !important; /* تعيين ارتفاع navbar */
+}
+.navbar-nav .nav-link.active {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav li a {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.8;
+    transition: 0.5s all;
+    margin-right: 5px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.logo-img {
+    width: 130px; /* حجم أكبر للوجو */
+    height: auto; /* لجعل الارتفاع متناسب مع العرض */
+}
+
+/* تقليل حجم الخط في روابط الـ navbar */
+.navbar-nav .nav-link {
+    font-size: 12px; /* حجم الخط أقل */
+    font-weight: 450;
+    letter-spacing: 1.8;
+    transition: 0.5s all;
+    margin-right: 5px;
+}
+
+/* General Styles for Dropdown Menu */
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.language-dropdown .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.language-dropdown .dropdown-menu {
+    min-width: 150px;
+    background-color: #454545 !important; /* Gray background for dropdown menu */
+}
+
+.language-dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    color: #ffffff !important; /* White text color */
+}
+
+.language-dropdown .dropdown-item i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.language-dropdown .dropdown-item:hover {
+    background-color: #e76210 !important; /* Background color on hover */
+    color: #e76210 !important; /* Ensure text color remains white on hover */
+}
+
+/* Add custom styles for the icon */
+.language-dropdown .nav-link i {
+    font-size: 20px; /* Adjust icon size as needed */
+    color: #ffffff;
+}
+
+.language-dropdown .dropdown-menu .dropdown-item {
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+
+
+/* ==================== About Section ==================== */
+#about {
+    background: url(../images/parallax/about\ us\ section\ .jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 60px 0;
+    color: #FFF;
+}
+
+.about-tx .col-md-4 img {
+    border: 2px solid #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-tx h2 {
+    color: #FFF;
+}
+
+.about-tx p {
+    color: #FFF;
+}
+
+.button-about .btn2 button {
+    background-color: #FFF;
+    color: #000;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-about .btn2 button:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+/* ==================== Services Section ==================== */
+.service-box a {
+    display: block;
+}
+
+.service-box img {
+    transition: transform 0.3s ease;
+    width: 100%; /* تأكد من أن العرض 100% */
+    height: 250px; /* احفظ الارتفاع */
+    object-fit: contain; /* استخدم contain لعرض الصورة بالكامل */
+    display: block; /* اجعل الصورة كتلة لتجنب الفراغات */
+    margin: 0 auto; /* اجعل الصورة مركزية */
+}
+
+
+
+.service-box a:hover img {
+    transform: scale(1.05);
+}
+
+.services-box > p {
+    max-width: 300px;
+}
+
+.ser-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ser-icon i {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(210, 200, 200, 0.61);
+    border: 1px solid rgba(210, 200, 200, 0.61);
+    border-radius: 50%;
+    padding-top: 10px;
+    transition: all 1s;
+}
+
+.ser-icon:hover i {
+    background-color: black;
+    color: #F7F7F7;
+}
+
+.services-box {
+    background-color: rgb(149, 64, 64);
+    box-shadow: 1px 1px 1px rgb(217, 229, 229);
+}
+
+/* ==================== Footer Section ==================== */
+.footer {
+    background: #000;
+    color: var(--text-light);
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: var(--text-light);
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--secondary-color);
+}
+
+/* ==================== Dynamic Text Color ==================== */
+.dark-bg {
+    color: var(--text-light);
+}
+
+.light-bg {
+    color: var(--text-dark);
+}
+/*  */
+
+/* ==================== Get a Quote Section ==================== */
+/* === Global Styling === */
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading-section h2 {
+    color: #ffffff;
+    /* font-size: 2rem; */
+    /* font-weight: 700; */
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.heading-section p {
+    color: #e0e0e0;
+    font-size: 1.0rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* === Responsive Design === */
+@media (max-width: 668px) {
+    .form-container {
+        padding: 20px;
+        height: auto; /* السماح للطول بأن يكون تلقائيًا على الشاشات الصغيرة */
+    }
+
+    .form-control {
+        height: 35px; /* تقليل ارتفاع الحقول على الشاشات الصغيرة */
+        font-size: 0.85rem;
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #b7b7b7, #676767);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* === Animations === */
+.form-container {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* خلفية قسم "اتصل بنا" */
+#contact {
+    background: url(../images/parallax/grunge-gray-concrete-textured-background.jpg) no-repeat center center fixed;
+    background-size: cover; /* لجعل الصورة تغطي الخلفية بالكامل */
+    padding: 60px 0; /* تعديل المسافات حول المحتوى في القسم */
+    color: #FFF; /* تغيير لون النص إلى الأبيض لضمان وضوحه على الخلفية */
+}
+
+
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* تراكب شفاف */
+    z-index: -1;
+}
+
+
+/* Styling for the contact section */
+#contact {
+    padding: 60px 0;
+}
+
+.contact-info {
+    padding-right: 15px;
+}
+
+.map {
+    border: 5px solid #daebfd; /* Border around the map */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Ensure the border radius is applied to the iframe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow around the map */
+    width: 100%; /* Ensure the map container takes full width */
+    height: 350px; /* Adjust height as needed */
+    position: relative; /* Position relative to handle absolute child */
+}
+
+.map iframe {
+    border: none; /* Remove the default border from iframe */
+    width: 100%; /* Make iframe full width */
+    height: 100%; /* Make iframe full height */
+    position: absolute; /* Ensure it fills the map container */
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+/* ==================== Button Styling ==================== */
+#clients .text-center {
+    display: flex;
+    justify-content: flex-end; /* وضع الزر في أقصى اليمين */
+    width: 100%;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}

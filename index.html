@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="title">Pioneer Paths Constructions</title>
+    <link rel="icon" href="images/ppc logo .png">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP STYLESHEET -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- ====> NAVBAR <====-->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: linear-gradient(90deg, hsla(240, 1%, 36%, 0.582), rgba(34,34,34,0.8)); box-shadow: 0 4px 10px;">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="index.html" style="color: #f8f9fa;">
+                <img src="images/ppc logo .png" alt="Logo" class="logo-img"> 
+                <span data-translate="logoText">Pioneer Paths Constructions</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto" id="navbarLinks">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><span class="home-text" data-translate="home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><span class="about-text" data-translate="about">About us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"><span class="services-text" data-translate="services">Services</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients"><span class="clients-text" data-translate="clients">Our Clients</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"><span class="projects-text" data-translate="projects">Our Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><span class="contact-text" data-translate="contact">Contact Us</span></a>
+                    </li>
+                    <div class="language-dropdown">
+                        <a class="nav-link dropdown-toggle" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#" data-lang="en"><i class="fas fa-flag-usa"></i> English</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="ar"><i class="fas fa-flag"></i> العربية</a></li>
+                        </ul>
+                    </div>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ====> HEADER <====-->
+    <header id="home" class="home text-white d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="container text-center">
+            <h5 id="header-title" class="fw-bold mb-2" data-translate="headerTitle">Pioneer Paths Constructions Company</h5>
+            <h2 id="header-subtitle" class="display-4 fw-semibold typing-animation mb-4" data-translate="headerSubtitle">Uniting Expertise, Achieving Excellence</h2>
+            <div class="head-icon mt-4">
+                <a href="" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="" class="text-white fs-4 p-2" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a id="portfolio-btn" href=".pdf" class="btn btn-primary rounded-pill custom-btn" download data-translate="downloadPortfolio">Download Portfolio</a>
+        </div>
+    </header>
+
+    <!-- ====> ABOUT SECTION <====-->
+    <section id="about" class="about py-5 d-flex">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 id="about-title" class="fw-bold" data-translate="aboutTitle">About Us</h2>
+                    <p id="about-description" class="fs-5 mb-4 text-custom" data-translate="aboutDesc">
+                        Our company emerges as a unified force, combining decades of expertise to meet the diverse needs of modern infrastructure projects. By integrating capabilities from various fields, "Masarat Al-Awael" ensures that every project, from inception to maintenance, adheres to the highest standards of quality, innovation, and sustainability.
+                    </p>
+                    <div class="button-about py-4">
+                        <a href="#contact" class="btn2 text-uppercase"><button id="contact-btn" class="py-2 px-4 rounded-1" data-translate="contactUsBtn">Contact Us</button></a>
+                        <a href="about.html" class="btn2 text-uppercase"><button id="readmore-btn" class="py-2 px-4 rounded-1" data-translate="readMoreBtn">Read More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ====> SERVICES SECTION <====-->
+<section id="services" class="services bg-light py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h5 data-translate="services_title">Our Services</h5>
+        </div>
+        <div class="row g-4">
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service1.jpg" class="img-fluid rounded mb-3" alt="Service 1" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service1_title">Electrical Energy Distribution and Management  </h5>
+                    <p data-translate="service1_desc">Efficiently designing, implementing, and managing electrical energy distribution systems to ensure reliable and sustainable energy supply for residential, commercial, and industrial projects.</p>
+                </div>
+            </div>
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service2.jpg" class="img-fluid rounded mb-3" alt="Service 2" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service2_title">General Construction Services </h5>
+                    <p data-translate="service2_desc">Delivering high-quality construction solutions for a wide range of projects, including residential, commercial, and industrial buildings, with a focus on precision and client satisfaction.</p>
+                </div>
+            </div>
+
+ <!-- ----------------- -->
+
+ <div class="col-lg-4 col-md-6">
+    <div class="service-box p-3 border rounded text-center">
+        <!-- <a href="\ website" class="d-block"> -->
+            <img src="images/Service3.jpg" class="img-fluid rounded mb-3" alt="Service 3" style="height: 250px; object-fit: cover;">
+        </a>
+        <h5 data-translate="service3_title">Infrastructure Development</h5>
+        <p data-translate="service3_desc">Developing advanced infrastructure solutions such as roads, bridges, and urban utilities to support community growth and long-term sustainability.</p>
+    </div>
+</div>
+            <!-- ----------------- -->
+             
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <!-- <a href="\tag website\Football courts\INDEX.HTML" class="d-block"> -->
+                        <img src="images/Service4.jpg" class="img-fluid rounded mb-3" alt="Service 4" style="height: 250px; object-fit: cover;">
+                    </a>
+                    <h5 data-translate="service4_title">Pipeline and Utility Networks</h5>
+                    <p data-translate="service4_desc">Designing and constructing robust pipeline systems and utility networks for water, gas, and sewage, ensuring safe and efficient resource distribution.</p>
+                </div>
+            </div>
+            
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service5.jpg" class="img-fluid rounded mb-3" alt="Service 5" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service5_title">Utility Plants & Communication Networks</h5>
+                    <p data-translate="service5_desc">Building and maintaining utility plants, including water treatment facilities and communication networks, to support modern infrastructure and connectivity.</p>
+                </div>
+            </div>
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service6.jpg" class="img-fluid rounded mb-3" alt="Service 6" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service6_title">Industrial & Marine Construction</h5>
+                    <p data-translate="service6_desc">Specializing in industrial facilities and marine structures, including factories, warehouses, ports, and offshore platforms, with durability and innovation at the forefront.</p>
+                </div>
+            </div>
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service7.jpg" class="img-fluid rounded mb-3" alt="Service 7" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service7_title">Demolition & Site Preparation</h5>
+                    <p data-translate="service7_desc">Providing professional demolition services and site preparation to clear the way for new developments, ensuring safety and efficiency.</p>
+                </div>
+            </div>
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service8.jpg" class="img-fluid rounded mb-3" alt="Service 8" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service8_title">Modern Irrigation Systems</h5>
+                    <p data-translate="service8_desc">Installing cutting-edge irrigation systems that optimize water usage and enhance agricultural productivity through smart and sustainable solutions.</p>
+                </div>
+            </div>
+
+          
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service9.jpg" class="img-fluid rounded mb-3" alt="Service 9" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service9_title">Heating, Cooling, and Ventilation</h5>
+                    <p data-translate="service9_desc">Offering comprehensive HVAC services, from installation to maintenance, to ensure optimal indoor climate control and energy efficiency.</p>
+                </div>
+            </div>
+
+            <!-- ----------------- -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service10.jpg" class="img-fluid rounded mb-3" alt="Service 10" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service10_title">Specialized Systems Installation and Maintenance</h5>
+                    <p data-translate="service10_desc">Delivering tailored solutions for the installation and upkeep of specialized systems, including fire safety, automation, and high-tech equipment.</p>
+                </div>
+            </div>
+            <!-- ----------------- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service11.jpg" class="img-fluid rounded mb-3" alt="Service 11" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service11_title">Electrical & Security Systems</h5>
+                    <p data-translate="service11_desc">Designing and implementing advanced electrical and security systems, including surveillance, access control, and alarm systems, for enhanced safety and functionality.</p>
+                </div>
+            </div>
+            <!-- ----------------- -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-box p-3 border rounded text-center">
+                    <img src="images/Service12.jpeg" class="img-fluid rounded mb-3" alt="Service 12" style="height: 250px; object-fit: cover;">
+                    <h5 data-translate="service12_title">Finishing & Interior Work</h5>
+                    <p data-translate="service12_desc">Providing exceptional finishing and interior services, including flooring, painting, and custom designs, to transform spaces into aesthetically pleasing and functional environments.</p>
+                </div>
+            </div>
+
+            <!-- ----------------- -->
+    </div>
+</section>
+
+<!-- ====> CLIENTS SECTION <====-->
+<section id="clients" class="clients py-5">
+    <div class="container">
+        <div class="section-header">
+            <h2 data-translate="our_clients">Our Clients</h2>
+        </div>
+
+        <div class="row">
+            <!-- الصف الأول: 5 إطارات -->
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client1.png" alt="Client 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client2.png" alt="Client 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client3.png" alt="Client 3" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client4.png" alt="Client 4" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client5.png" alt="Client 5" class="img-fluid">
+                </div>
+            </div>
+            <!-- الصف الثاني: 5 إطارات -->
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client6.png" alt="Client 6" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client7.png" alt="Client 7" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client8.png" alt="Client 8" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client9.png" alt="Client 9" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client10.png" alt="Client 10" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client11.png" alt="Client 11" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6 mb-4">
+                <div class="client-frame">
+                    <img src="images/client12.png" alt="Client 12" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- زر "المزيد" -->
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-primary" data-translate="more_button">More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ====> OUR PROJECTS SECTION <====-->
+<section id="projects" class="projects py-5 bg-light">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h5 class="fw-bold" data-translate="our_projects">Our Projects</h5>
+        </div>
+        <div class="row g-4">
+            <!-- Project 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box p-4 border rounded-3 text-center shadow-sm bg-white">
+                    <img src="images/project1.jpg" class="img-fluid rounded mb-3" alt="Project 1">
+                    <h5 data-translate="project1_title">Project 1: Green Hills</h5>
+                    <p data-translate="project1_desc">A prestigious residential compound spanning 9 feddans, featuring 26 modern residential buildings. Each building includes a basement, ground floor, and 11 additional floors. The project, designed to meet contemporary living standards, boasts an estimated cost of 300M EGP.</p>
+                    
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box p-4 border rounded-3 text-center shadow-sm bg-white">
+                    <img src="images/project2.jpg" class="img-fluid rounded mb-3" alt="Project 2">
+                    <h5 data-translate="project2_title">Project 2: Azad New Cairo </h5>
+                    <p data-translate="project2_desc">A sprawling residential compound covering 19 feddans, featuring 24 state-of-the-art residential buildings. Each building includes a basement, ground floor, and multiple floors, designed to provide a modern and comfortable living experience.</p>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box p-4 border rounded-3 text-center shadow-sm bg-white">
+                    <img src="images/project3.jpg" class="img-fluid rounded mb-3" alt="Project 3">
+                    <h5 data-translate="project3_title">Project 3: Park Lane</h5>
+                    <p data-translate="project3_desc">We provided structural consultation for 25 residential buildings (Basement + Ground + 8 Floors) across 26 feddans, ensuring efficient and reliable designs for this large-scale project.</p>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box p-4 border rounded-3 text-center shadow-sm bg-white">
+                    <img src="images/project4.jpg" class="img-fluid rounded mb-3" alt="Project 4">
+                    <h5 data-translate="project4_title">Project 4: Galleria Moon Valley</h5>
+                    <p data-translate="project4_desc">We provided structural consulting services for a residential compound featuring 74 buildings, each consisting of a basement, ground floor, and 5 additional floors. The project spans a significant area and is estimated to cost [insert cost] EGP, showcasing our expertise in large-scale residential developments.</p>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box p-4 border rounded-3 text-center shadow-sm bg-white">
+                    <img src="images/project5.jpg" class="img-fluid rounded mb-3" alt="Project 5">
+                    <h5 data-translate="project5_title">Project 5: Uptown Mall</h5>
+                    <p data-translate="project5_desc">We acted as the owner's consultant for the first medical and commercial mall in New Sohag. The project spans 5 floors with a total area of 2300 m², marking a significant development in the region.</p>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="project-box p-4 border rounded-3 text-center shadow-sm bg-white">
+                    <img src="images/project6.jpg" class="img-fluid rounded mb-3" alt="Project 6">
+                    <h5 data-translate="project6_title">Project 6: Restoration & Enhancement of Sidi Abdelrahman Village</h5>
+                    <p data-translate="project6_desc">This project focuses on the development and upgrade of schools, healthcare facilities, and service buildings, alongside the design of a new governmental complex, all set across 7 feddans.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- زر "المزيد" -->
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-primary" data-translate="more_button">More</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ====> CONTACT SECTION <====-->
+<section id="contact" class="contact py-5">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2 data-translate="contact_us">Contact Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact-info">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-location-dot fs-4 me-2"></i>
+                        <div>
+                            <h4 data-translate="address">Address</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-phone fs-4 me-2"></i>
+                        <div>
+                            <h4 data-translate="phone">Phone</h4>
+                            <p>+966502735584</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-envelope fs-4 me-2"></i>
+                        <div>
+                            <h4 data-translate="email">Email</h4>
+                            <p>sales@masarat.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="350"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ====> BACKGROUND IMAGE SECTION <====-->
+<section class="background-image-section py-5">
+    <!-- Content or message can be added here -->
+</section>
+
+<!-- ====> FOOTER <====-->
+<footer class="bg-black text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0" data-translate="footer_text">&copy; 2022 PPC Company. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <a href="#" class="text-white me-3" data-translate="privacy_policy">Privacy Policy</a>
+                <a href="#" class="text-white" data-translate="terms_of_service">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- ====> JS FILES <====-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
+    <script src="./home.js"></script>
+    <script src="./translations.js"></script>
+
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9dy7U8z0e2c6q8N6F8U8Q3sFJEO7pkF1GGMKj3H5w+jocwI5YI5" crossorigin="anonymous"></script> -->
+
+
+</body>
+
+</html>
+
+
